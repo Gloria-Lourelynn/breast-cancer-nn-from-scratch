@@ -1,19 +1,4 @@
-"""
-neural_network.py - Artificial Neural Network implemented entirely from scratch in NumPy.
 
-Architecture:
-    Input Layer (n_input) -> Hidden Layer (n_hidden) -> Output Layer (1)
-
-All components implemented manually:
-- Weights and Biases (He & Xavier initialization)
-- Forward Propagation (Linear -> Activation)
-- Activation Functions (ReLU, Sigmoid, and their analytical derivatives)
-- Binary Cross-Entropy Loss with numerical stability
-- Analytical Backpropagation (Gradients computation)
-- Gradient Descent Optimizer (Standard and Momentum-accelerated)
-- Training Loop with Mini-batching and Convergence Tracking
-- Binary Prediction and Probability Estimation
-"""
 
 from typing import Dict, List, Optional, Tuple, Union
 import numpy as np
